@@ -1,0 +1,182 @@
+:root {
+  color: #fff8ef;
+  font-family: "Avenir Next", "PingFang SC", sans-serif;
+  line-height: 1.4;
+  font-synthesis: none;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #321710;
+  --panel: rgba(57, 25, 12, 0.72);
+  --panel-soft: rgba(98, 49, 21, 0.34);
+  --line: rgba(255, 226, 195, 0.18);
+  --accent: #ffb06d;
+  --accent-strong: #ff8753;
+  --chip: rgba(61, 24, 11, 0.78);
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background: transparent;
+  user-select: none;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.shell {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 16px;
+  background: transparent;
+}
+
+.eyebrow,
+.status {
+  margin: 0;
+}
+
+.eyebrow {
+  color: #ffca95;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.status {
+  color: #dfb08d;
+  font-size: 13px;
+}
+
+.tool {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: rgba(63, 26, 13, 0.78);
+  color: #fff2e1;
+  border: 1px solid var(--line);
+}
+
+.tool.danger {
+  background: rgba(148, 40, 30, 0.84);
+}
+
+.stage-frame {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+.stage {
+  width: 100%;
+  height: 100%;
+}
+
+.stage canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.pet-chip {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 2;
+  min-width: 74px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 169, 95, 0.96), rgba(233, 109, 73, 0.9));
+  color: #2d160f;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 14px 30px rgba(66, 21, 9, 0.24);
+}
+
+.palette {
+  position: absolute;
+  top: 64px;
+  right: 18px;
+  z-index: 2;
+  width: 216px;
+  padding: 14px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(63, 26, 13, 0.8), rgba(38, 15, 8, 0.52));
+  border: 1px solid rgba(255, 226, 195, 0.12);
+  backdrop-filter: blur(18px);
+}
+
+.palette-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.action-grid button,
+.ghost {
+  padding: 11px 10px;
+  border-radius: 18px;
+  color: #fff7ef;
+  background: linear-gradient(180deg, rgba(255, 160, 88, 0.9), rgba(232, 105, 71, 0.92));
+}
+
+.meta-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ghost {
+  background: var(--chip);
+  border: 1px solid var(--line);
+  box-shadow: none;
+}
+
+.hint {
+  margin: 10px 0 0;
+  color: #deb48e;
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .shell {
+    padding: 12px;
+  }
+
+  .pet-chip {
+    top: 12px;
+    right: 12px;
+  }
+
+  .palette {
+    top: 58px;
+    right: 12px;
+    width: 198px;
+  }
+
+  .stage-frame {
+    inset: 0;
+  }
+}

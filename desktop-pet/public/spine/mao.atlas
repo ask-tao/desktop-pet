@@ -1,0 +1,97 @@
+
+mao.png
+size: 992,777
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 490, 252
+  size: 300, 155
+  orig: 300, 155
+  offset: 0, 0
+  index: -1
+houshou1
+  rotate: false
+  xy: 228, 2
+  size: 122, 182
+  orig: 122, 182
+  offset: 0, 0
+  index: -1
+houshou2
+  rotate: false
+  xy: 388, 283
+  size: 100, 125
+  orig: 100, 125
+  offset: 0, 0
+  index: -1
+houshouzhi
+  rotate: true
+  xy: 658, 25
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+qianshou2
+  rotate: false
+  xy: 872, 68
+  size: 118, 251
+  orig: 149, 276
+  offset: 11, 4
+  index: -1
+shenti
+  rotate: true
+  xy: 501, 409
+  size: 366, 289
+  orig: 376, 321
+  offset: 10, 16
+  index: -1
+tou
+  rotate: false
+  xy: 2, 410
+  size: 497, 365
+  orig: 497, 397
+  offset: 0, 32
+  index: -1
+weiba
+  rotate: true
+  xy: 792, 321
+  size: 246, 144
+  orig: 246, 145
+  offset: 0, 1
+  index: -1
+xianyu
+  rotate: false
+  xy: 2, 186
+  size: 384, 222
+  orig: 384, 222
+  offset: 0, 0
+  index: -1
+youer
+  rotate: true
+  xy: 388, 61
+  size: 189, 268
+  orig: 189, 270
+  offset: 0, 1
+  index: -1
+youjiao
+  rotate: true
+  xy: 658, 62
+  size: 188, 212
+  orig: 188, 212
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: true
+  xy: 2, 3
+  size: 181, 224
+  orig: 181, 224
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 792, 569
+  size: 159, 206
+  orig: 159, 206
+  offset: 0, 0
+  index: -1
