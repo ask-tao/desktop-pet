@@ -33,6 +33,7 @@ fn set_pet_passthrough(app: AppHandle, enabled: bool) -> Result<bool, String> {
 
 fn main() {
     tauri::Builder::default()
+        .plugin(tauri_plugin_notification::init())
         .manage(PetState::default())
         .setup(|app| {
             build_tray(app)?;

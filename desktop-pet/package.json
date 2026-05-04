@@ -11,8 +11,9 @@
     "tauri:build": "tauri build"
   },
   "dependencies": {
-    "@tauri-apps/api": "2.0.0",
     "@pixi-spine/all-3.8": "4.0.6",
+    "@tauri-apps/api": "2.0.0",
+    "@tauri-apps/plugin-notification": "^2.3.3",
     "pixi.js": "^7.4.3",
     "vue": "^3.4.37"
   },
